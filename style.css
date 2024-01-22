@@ -1,0 +1,118 @@
+body{
+    background-color: rgb(158, 255, 223);
+    text-align: center;
+}
+img{
+    width: 100%;
+border-top-right-radius: 15px;
+border-top-left-radius: 15px;
+}
+.game{
+    color: blue;
+    background-color: rgb(255, 255, 255);
+    width: 18%;
+    display: inline-block;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 15px; 
+    height: 500px;
+}
+.game a{
+    color: rgb(9, 255, 0);
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    width: 40%;
+    display: inline-block;
+
+}
+.menu a{
+    font-size: 25px;
+    margin: 50px;
+    text-decoration: none;
+    color: rgb(201, 153, 33);
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 200px;
+    display: inline-block;
+    box-shadow: 3px 5px 3px black;
+    padding: 10px;
+}
+.menu{
+    padding: 10px;
+}
+
+.tarif-title{
+    font-size: 50px;
+}
+caption{
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+table{
+    margin: 0 auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+.basic{
+    background-color: rgba(180, 4, 4, 0.808);
+}
+
+.pro{
+background-color: blue;
+}
+
+  .gold{
+    background-color: rgb(153, 25, 147);
+  }  
+
+  .platinum{
+    background-color: cyan;
+  }
+  th{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 150px;
+    font-size: 22px;
+    color: white;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+  }
+  td{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid grey;
+    background-color: white;
+  }
+  .prise-text{
+    box-shadow: 1px 4px 8px grey;
+    padding: 15px;
+    display: inline;
+  }
+
+  .prise-wrapper{
+    padding: 0;
+    height: 90px;
+  }
+
+  .tarrif-btn{
+    color: white;
+    padding: 20px 5px;
+    text-decoration: none;
+    border-radius: 15px;
+    width: 250px;
+    display: inline-block;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 1px 4px 4px grey;
+
+  }
+  .tarrif{
+    height: 90px;
+  }
